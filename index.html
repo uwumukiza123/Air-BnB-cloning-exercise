@@ -13,7 +13,7 @@
     <section class=" bg-white">
         <header class="px-10 py-5 border-b-2">
             <div class="flex items-center justify-between">
-                <div class="flex items-center font-bold">
+                <div class="md:flex items-center font-bold hidden">
                     <div class="h-12 w-12 -rotate-90 text-red-400">
                         <i><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
@@ -23,7 +23,7 @@
                     <h2 class="text-red-400 text-lg">airbnb</h2>
                 </div>    
                 
-                <div class="bg-white shadow-lg rounded-lg flex items-center h-12">
+                <div class="bg-white shadow-lg rounded-3xl flex items-center h-12 md:w-1/2 w-full">
                     <p class="px-4">Anywhere</p>
                     <p class="px-4">Any week</p>
                     <div class="flex items-center">
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex items-center justify-between">
+                <div class="md:flex hidden items-center justify-between ">
                     <div>
                         <p>Airbnb your home</p>
                     </div>
@@ -90,14 +90,20 @@
             </div>
         </header>
 
-        <div class="flex items-center">
-            <div class="h-12 w-72 shadow rounded"></div>
+        <div class="flex justify-center items-center">
+            <div class="h-12 md:w-1/2 w-full shadow rounded-3xl flex items-center justify-between">
+                <p>Display total price</p>
+                <p>Includes all fees, before taxes</p>
+                <div class="text-blue-700">
+                    <i class="fa-solid fa-toggle-off h-8 w-16"></i>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="grid grid-cols-4">
+    <section class="grid md:grid-cols-4 grid-cols-2">
         <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
             <p>Nairobi, Kenya</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
@@ -105,7 +111,47 @@
         </main>
 
         <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/b6ae5592-da69-4f09-9358-906ae669f756.jpg?im_w=720" alt="">
+            <p>Amathole District Municipality, South Africa</p>
+            <p>3,501 kilometers away</p>
+            <p>Jul 13 – 20</p>
+            <p>$1,228 night</p>
+        </main>
+
+        <main>
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <p>Amathole District Municipality, South Africa</p>
+            <p>3,501 kilometers away</p>
+            <p>Jul 13 – 20</p>
+            <p>$1,228 night</p>
+        </main>
+
+        <main>
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <p>Amathole District Municipality, South Africa</p>
+            <p>3,501 kilometers away</p>
+            <p>Jul 13 – 20</p>
+            <p>$1,228 night</p>
+        </main>
+
+        <main>
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <p>Amathole District Municipality, South Africa</p>
+            <p>3,501 kilometers away</p>
+            <p>Jul 13 – 20</p>
+            <p>$1,228 night</p>
+        </main>
+
+        <main>
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
+            <p>Amathole District Municipality, South Africa</p>
+            <p>3,501 kilometers away</p>
+            <p>Jul 13 – 20</p>
+            <p>$1,228 night</p>
+        </main>
+
+        <main>
+            <img class="h-60 w-60 rounded-3xl" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
             <p>Amathole District Municipality, South Africa</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
@@ -178,7 +224,7 @@
 
         <main>
             <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
+            <p>Amathole</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
             <p>$1,228 night</p>
@@ -186,7 +232,7 @@
 
         <main>
             <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
+            <p>Amathole</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
             <p>$1,228 night</p>
@@ -194,7 +240,7 @@
 
         <main>
             <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
+            <p>Amathole</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
             <p>$1,228 night</p>
@@ -202,47 +248,7 @@
 
         <main>
             <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
-            <p>3,501 kilometers away</p>
-            <p>Jul 13 – 20</p>
-            <p>$1,228 night</p>
-        </main>
-
-        <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
-            <p>3,501 kilometers away</p>
-            <p>Jul 13 – 20</p>
-            <p>$1,228 night</p>
-        </main>
-
-        <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
-            <p>3,501 kilometers away</p>
-            <p>Jul 13 – 20</p>
-            <p>$1,228 night</p>
-        </main>
-
-        <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
-            <p>3,501 kilometers away</p>
-            <p>Jul 13 – 20</p>
-            <p>$1,228 night</p>
-        </main>
-
-        <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
-            <p>3,501 kilometers away</p>
-            <p>Jul 13 – 20</p>
-            <p>$1,228 night</p>
-        </main>
-
-        <main>
-            <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-            <p>Amathole District Municipality, South Africa</p>
+            <p>Amathole</p>
             <p>3,501 kilometers away</p>
             <p>Jul 13 – 20</p>
             <p>$1,228 night</p>
@@ -265,21 +271,6 @@
         </main>
     </section>
 
-    <main>
-        <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-        <p>Amathole District Municipality, South Africa</p>
-        <p>3,501 kilometers away</p>
-        <p>Jul 13 – 20</p>
-        <p>$1,228 night</p>
-    </main>
-
-    <main>
-        <img class="h-52 w-52" src="https://a0.muscache.com/im/pictures/12dca750-02cc-49c5-a2a0-c7181794595b.jpg?im_w=720" alt="">
-        <p>Amathole District Municipality, South Africa</p>
-        <p>3,501 kilometers away</p>
-        <p>Jul 13 – 20</p>
-        <p>$1,228 night</p>
-    </main>
 
     
 </body>
